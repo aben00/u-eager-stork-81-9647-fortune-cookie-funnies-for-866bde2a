@@ -7,6 +7,8 @@ import { join } from "node:path";
 
 const ENTRY =
   "You will inherit a legacy codebase today. It is yours. You wrote it. Last Tuesday.";
+// 82 characters: a fortune-cookie line that only lands on a software engineer —
+// the legacy codebase you dread inheriting is the one you wrote last week.
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 const outPath = join(outDir, "entry.txt");
